@@ -1,0 +1,19 @@
+
+spring.datasource:
+  url: jdbc:postgresql://34.124.162.41/devdb
+  username: user
+  password: 1111
+
+spring.jpa:
+  database: POSTGRESQL
+  hibernate.ddl-auto: create
+  show-sql: true
+  properties:
+    hibernate:
+      format_sql: true
+spring.servlet:
+  multipart:
+    maxFileSize: 2000MB
+    maxRequestSize: 2000MB
+
+image.url: http://localhost:8080/api/v1/file/get-image?file=
